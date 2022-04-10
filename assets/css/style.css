@@ -24,8 +24,7 @@ html {
     font-size: 10;
 }
 
-body,
-html {
+body {
     height: 100%;
 }
 
@@ -44,7 +43,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: multiply;
 }
 
 header img {
@@ -183,4 +181,84 @@ main section:nth-of-type(3) h3 {
 main section:nth-of-type(3) span {
     color: #fff;
     background: #000;
+}
+
+/* =================================================================
+            P DOMESTIC WORKERS
+================================================================== */
+
+main>p {
+    font-family: 'santio bold';
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #7eb8e1;
+    margin: 19vh 7vw 2vh 33vw;
+    padding-bottom: 10vh;
+}
+
+main>p span {
+    color: #fff;
+    background: #000;
+}
+
+/* =================================================================
+            FOOTER
+================================================================== */
+
+/* =================================================================
+            SECTION HELP
+================================================================== */
+
+footer section {
+    background: url('../img/kid.png'), url('../img/see.png');
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, top;
+    padding-top: 100vh;
+}
+
+footer section p:nth-of-type(1),
+footer section div {
+    background-color: #000;
+    color: #fff;
+    padding-left: 10vw;
+}
+
+footer section p:nth-of-type(1) {
+    font-family: 'santio bold';
+    font-size: 4rem;
+    margin-top: 20vh;
+    padding: 58vh 50vw 1vh 10vw;
+}
+
+footer section div {
+    padding-top: 10vh;
+    padding-bottom: 45vh;
+}
+
+footer section div a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer section div a:hover {
+    box-shadow: 5px 5px 1px white;
+}
+
+footer section p:nth-of-type(2) {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem;
+    color: grey;
+    text-align: center;
+}
+
+footer section p:nth-of-type(2) a {
+    color: #6bc1a3;
+    text-decoration: none;
 }
